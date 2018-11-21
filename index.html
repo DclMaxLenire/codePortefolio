@@ -11,12 +11,12 @@
 
 <body>
 <header>
-<h1>Porte-folio</h1>
+<h1 id="retour">Porte-folio</h1>
         <nav>
             <ul id="menu-demo2">
         <!-- Menu déroulant -->
-                <li>MENU DES PROJETS</a>
-            <ul>
+                <li class="menu2">MENU DES PROJETS</a>
+            <ul class="menu">
                 <li><a href="#htmlCss">HTML et CSS</a></li>
                 <li><a href="#javaScript">JAVASCRIPT</a></li>
                 <li><a href="#php">PHP</a></li>
@@ -37,7 +37,8 @@
 
         <a href="#siteHtmlCss"><img class="siteHtml" src="img/siteHtml1.png"></a>
         <a href="#siteAccessCode"><img class="siteAccessCode" src="img/siteAccessCode1.png"></a>
-</div>
+
+    </div>
 
             <ul class="partieHtmlCss">
 
@@ -46,9 +47,7 @@
 
             </ul>
     </div>
-    <div>
-  
-    </div>
+
         <!-- Les projets JAVASCRIPT -->
 <div id="javaScript" class="javaScript">
 
@@ -70,7 +69,7 @@
 </div>
 <div class="imgJavaScript2">
         <a  href="#jeuxDuShiFuMiJavaScript"><img class="jeuxDuShiFuMiJavaScript" src="img/jeuxDuShiFuMiJavaScript1.png"></a>
-        <a href="#jeuxDuPuissance4JAvaScript"><img  class="jeuxDuPuissance4JavaScript" src="img/jeuxDuPuissance4JavaScript1.png"></a>
+        <a href="#jeuxDuPuissance4JavaScript"><img  class="jeuxDuPuissance4JavaScript" src="img/jeuxDuPuissance4JavaScript1.png"></a>
 </div>
     <ul class="partieJavaScript2">
 
@@ -95,12 +94,10 @@
                 <li>Formulaire Php</li>
 
             </ul>
-<div id="test" class="test">
 
-</div>
         <!-- Pour le Site Html et CSS -->
 
-    <h2 id="siteHtmlCss" class="siteHtmlCssPartie1">SITE LEXIQUE HTML<h2>
+    <h2 id="siteHtmlCss" class="siteHtmlCssPartie1">SITE LEXIQUE HTML</h2>
 
         <div class="siteHtmlCssPartie2">
 
@@ -108,25 +105,26 @@
             <img class="siteHtmlCssPartie4" src="img/siteHtml2.png">
 
             <p class="siteHtmlCssPartie5"> Création en group d'un site repnrenant les balises HTML, chaque lien envoie sur une nouvelle page ou est définit la
-            balise, tout est fait en HTML et CSS<p>
+            balise, tout est fait en HTML et CSS <a href="https://github.com/DclMaxLenire/phpLexiqueSiteInternet" target=_blank >Lien GitHub</a></p>
 
         </div>
 
         <!-- Pour le site Acces Code -->
-    <h2 id="siteAccessCode" class="siteAccessCodePartie1">SITE ACCES CODE<h2>
+    <h2 id="siteAccessCode" class="siteAccessCodePartie1">SITE ACCES CODE</h2>
 
         <div class="siteAccessCodePartie2">
 
             <img class="siteAccessCodePartie3" src="img/siteAccessCode1.png">
             <img class="siteAccessCodePartie4" src="img/siteAccessCode2.png">
 
-            <p class="siteAccessCodePartie5"> Reproduction du site Access Code, travail en HTML et CSS, utilisation du flex et autre proceder de CSS<p>
+            <p class="siteAccessCodePartie5"> Reproduction du site Access Code, travail en HTML et CSS, utilisation du flex et autre proceder de CSS
+                    <a href="https://github.com/DclMaxLenire/Siteaccesscode" target=_blank >Lien GitHub</a></p>
 
 
         </div>
 
         <!-- Pour le formulaire avec vérification en JavaScript -->
-    <h2 id="formulaireJavaScript" class="forumlaireJavaScriptPartie1">FORMULAIRE AVEC VERIFICATION JAVASCRIPT<h2>
+    <h2 id="formulaireJavaScript" class="formulaireJavaScriptPartie1">FORMULAIRE AVEC VERIFICATION JAVASCRIPT</h2>
         
         <div class="formulaireJavaScriptPartie2">
 
@@ -134,7 +132,8 @@
             <img class="formulaireJavaScriptPartie4" src="img/formulaireJavaScript2.png">
 
             <p class="formulaireJavaScriptPartie5">Création d'un formulaire avec vérification et interdiction
-            au caractères spéciaux dans le nom et le prénom, vérification d'adresse mail, de majorité et compteur de caractères</p>
+            au caractères spéciaux dans le nom et le prénom, vérification d'adresse mail, de majorité et compteur de caractères
+            <a href="https://github.com/DclMaxLenire/javaScriptFormulaire" target=_blank >Lien GitHub</a></p>
         
         </div>
 
@@ -146,7 +145,8 @@
             <img class="calculatriceJavaScriptPartie3" src="img/calculatriceJavaScript1.png">
             
 
-            <p class="calculatriceJavaScriptPartie4">Création du calculatrice en JavaScript avec possibilité de choisir l'opération.</p>
+            <p class="calculatriceJavaScriptPartie4">Création du calculatrice en JavaScript avec possibilité de choisir l'opération.
+                    <a href="https://github.com/DclMaxLenire/calculatriceJavaScript" target=_blank >Lien GitHub</a></p>
 
         </div>
 
@@ -159,7 +159,7 @@
             <img class="jeuxDuShiFuMiJavaScriptPartie4" src="img/jeuxDuShiFuMiJavaScript2.png">
 
             <p class="jeuxDuShiFuMiJavaScriptPartie5">Création d'un jeux de Shi Fu Mi en JavaScript, un joueur, donc utilisation d'une 
-            petit IA avec les trois choix disponibles</p>
+            petit IA avec les trois choix disponibles<a href="https://github.com/DclMaxLenire/javaScriptJeuxDuShiFuMi" target=_blank >Lien GitHub</a></p>
 
         </div>
 
@@ -171,71 +171,40 @@
             <img class="jeuxDuPuissance4JavaScriptPartie3" src="img/jeuxDuPuissance4JavaScript1.png">
             <img class="jeuxDuPuissance4JavaScriptPartie4" src="img/jeuxDuPuissance4JavaScript2.png">
 
-            <p class="jeuxDuPuissance4JavaScriptPartie5">Création du jeux Puissance4 en JAVASCRIPT, travail de groupe, version sans IA uniquement des joueurs en local</p>
+            <p class="jeuxDuPuissance4JavaScriptPartie5">Création du jeux Puissance4 en JAVASCRIPT, travail de groupe, version sans IA uniquement des joueurs en local
+                    <a href="https://github.com/DclMaxLenire/jeuxPuissance4" target=_blank >Lien GitHub</a></p>
 
         </div>
 
         <!-- Pour la Table De Multiplication Php -->
-    <h2 id="tableDeMultiplicationPhp" class="tableDeMultiplicationPhpPartie1">JEUX DU SHI FU MI JAVASCRIPT</h2>
+    <h2 id="tableDeMultiplicationPhp" class="tableDeMultiplicationPhpPartie1">TABLE DE MULTIPLICATION PHP</h2>
 
         <div class="tableDeMultiplicationPhpPartie2">
 
             <img class="tableDeMultiplicationPhpPartie3" src="img/tableDeMultiplicationPhp1.png">
 
-            <p class="tableDeMultiplicationPhpPartie4">Création d'une table de multiplication, permetant la selection d'une ou plusieurs table, calculé et créer par le PHP</p>
+            <p class="tableDeMultiplicationPhpPartie4">Création d'une table de multiplication, permetant la selection d'une ou plusieurs tab
+                le, calculé et créer par le PHP<a href="https://github.com/DclMaxLenire/phpTableDeMultiplication" target=_blank >Lien GitHub</a></p>
 
         </div>
 
         <!-- Pour le Formulaire Php -->
-    <h2 id="formulairePhp" class="formulairePhpPartie1">JEUX DU SHI FU MI JAVASCRIPT</h2>
+    <h2 id="formulairePhp" class="formulairePhpPartie1">FORMULAIRE PHP</h2>
 
         <div class="formulairePhpPartie2">
 
             <img class="formulairePhpPartie3" src="img/formulairePhp1.png">
 
-            <p class="formulairePhpPartie4">Création d'un formulaire et récupérer les données sur une adresse mail avec le PHP </p>
+            <p class="formulairePhpPartie4">Création d'un formulaire permetant de récupérer les données sur une adresse mail avec le PHP 
+                    <a href="https://github.com/DclMaxLenire/phpFormulaire" target=_blank >Lien GitHub</a></p>
 
         </div>
 
+    <footer>
 
+        <a href="#retour">HAUT DE PAGE</a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </footer>
 
 </body>
 

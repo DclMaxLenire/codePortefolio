@@ -1,736 +1,874 @@
-* {
-margin:0;
-padding:0;
+    * {
+        margin:0;
+            padding:0;
 }
-html {
-background-image:url("img/galaxy-s7-edge-2-knox\ \(1\).jpg");
-font-family: 'Caveat', sans-serif
+    html {
+        background-image:url("img/galaxy-s7-edge-2-knox\ \(1\).jpg");
+            font-family: 'Caveat', sans-serif;
 }
-h1 {
-color:white;
-text-align:center;
+    @media screen and (max-width: 480px) {
+        h1 {
+            color:white;
+                text-align:center;
 }
-nav {
-position: fixed;
-width:100%;
-background-color: rgba(0, 0, 0, .8);
-margin:auto;
+    nav {
+        position: fixed;
+            width:100%;
+                background-color: rgba(0, 0, 0, .8);
+                    margin:auto;
 }
-.logo {
-width:80%;
-margin:auto;
-padding:5%;
+    .logo {
+        width:80%;
+            margin:auto;
+                padding:5%;
 }
-.logoImg {
-width:100%;
--webkit-box-shadow: 11px 13px 10px 7px #199128; 
-box-shadow: 2px 20px 20px 20px #199128;
+    .logoImg {
+        width:100%;
+            -webkit-box-shadow: 11px 13px 10px 7px #199128; 
+                box-shadow: 2px 20px 20px 20px #199128;
 }
     /* Menu déroulant */
-#menu-demo2, #menu-demo2 ul{
-padding:0;
-margin:0;
-list-style:none;
-text-align:center;
+    #menu-demo2, #menu-demo2 ul{
+        padding:0;
+            margin:0;
+                list-style:none;
+                    text-align:center;
 }
-#menu-demo2 li{
-display:inline-block;
-position:relative;
-border-radius:8px 8px 0 0;
+    #menu-demo2 li{
+        display:inline-block;
+            position:relative;
+                border-radius:8px 8px 0 0;
 }
-#menu-demo2 ul li{
-display:inherit;
-border-radius:0;
-width:100%;
+    #menu-demo2 ul li{
+        display:inherit;
+            border-radius:0;
+                width:100%;
 }
-#menu-demo2 ul li:hover{
-border-radius:0;
+    #menu-demo2 ul li:hover{
+        border-radius:0;
 }
-#menu-demo2 ul li:last-child{
-border-radius:0 0 8px 8px;
+    #menu-demo2 ul li:last-child{
+        border-radius:0 0 8px 8px;
 }
-#menu-demo2 ul{
-position:absolute;
-z-index: 1000;
-max-height:0;
-left: 0;
-right: 0;
-overflow:hidden;
--moz-transition: .8s all .3s;
--webkit-transition: .8s all .3s;
-transition: .8s all .3s;
+    #menu-demo2 ul{
+        position:absolute;
+            z-index: 1000;
+                max-height:0;
+                    left: 0;
+                        right: 0;
+                    overflow:hidden;
+                -moz-transition: .8s all .3s;
+            -webkit-transition: .8s all .3s;
+        transition: .8s all .3s;
 }
-#menu-demo2 li:hover ul{
-max-height:15em;
-}
-
-#menu-demo2 li:first-child{
-background-color: rgb(53, 155, 13);
-background-image:-webkit-linear-gradient(top, rgb(53, 155, 13) ,rgb(53, 155, 13) );
-background-image:linear-gradient(to bottom,rgb(53, 155, 13), rgb(53, 155, 13) );
+    #menu-demo2 li:hover ul{
+        max-height:15em;
 }
 
-
-#menu-demo2 li:first-child li{
-background:rgb(53, 155, 13);
+    #menu-demo2 li:first-child{
+        background-color: rgb(53, 155, 13);
+            background-image:-webkit-linear-gradient(top, rgb(53, 155, 13) ,rgb(53, 155, 13) );
+                background-image:linear-gradient(to bottom,rgb(53, 155, 13), rgb(53, 155, 13) );
 }
 
-#menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
-background:rgb(53, 155, 13);
+
+    #menu-demo2 li:first-child li{
+        background:rgb(53, 155, 13);
 }
 
-#menu-demo2 a{
-text-decoration:none;
-display:block;
-padding:8px 32px;
-color:#fff;
-font-family:arial;
+    #menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
+        background:rgb(53, 155, 13);
 }
-#menu-demo2 ul a{
-padding:8px 0;
+
+    #menu-demo2 a{
+       text-decoration:none;
+            display:block;
+                padding:8px 32px;
+            color:#fff;
+        font-family:arial;
 }
-#menu-demo2 li:hover li a{
-color:#fff;
-text-transform:inherit;
+    #menu-demo2 ul a{
+        padding:8px 0;
 }
-#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
-color:#000;
+    #menu-demo2 li:hover li a{
+        color:#fff;
+            text-transform:inherit;
+}
+    #menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+        color:#000;
 }
     /* Partie pour HTML et CSS */
-h2 {
-text-align:center;
-color:white;
-margin:5%;
+    h2 {
+        text-align:center;
+            color:white;
+                margin:5%;
 }
-.imgHtmlCss {
-width:100%;
-display:flex;
-flex-direction:row;
+    .imgHtmlCss {
+        width:100%;
+            display:flex;
+                flex-direction:row;
 }
-.siteHtml {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .siteHtml {
+        width:90%;
+            height:150px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            margin:2%;
 }
-.siteAccessCode {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .siteAccessCode {
+        width:90%;
+            height:150px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            margin:2%;
 }
-.partieHtmlCss {
-display:flex;
-flex-direction:row;
-color:white;
-text-align: center;
-list-style-type:none;
+    .partieHtmlCss {
+        display:flex;
+            flex-direction:row;
+                color:white;
+                    text-align: center;
+                list-style-type:none;
 }
     /* Partie JAVASCRIPT */
-.imgJavaScript1 {
-width:100%;
-display:flex;
-flex-direction:row;
+    .imgJavaScript1 {
+        width:100%;
+            display:flex;
+                flex-direction:row;
 }
-.jeuxDuShiFuMiJavaScript {
--webkit-transform: scale(1);
-transform: scale(1);
--webkit-transition: .3s ease-in-out;
-transition: .3s ease-in-out;
+    .jeuxDuShiFuMiJavaScript {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
 }
-.formulaireJavaScript {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .formulaireJavaScript {
+        width:90%;
+            height:150px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            margin:2%;
 }
-.calculatriceJavaScript {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .calculatriceJavaScript {
+        width:90%;
+            height:150px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            margin:2%;
 }
-.partieJavaScript1 {
-display:flex;
-flex-direction:row;
-color:white;
-text-align: center;
-list-style-type:none;
+    .partieJavaScript1 {
+        display:flex;
+            flex-direction:row;
+                color:white;
+                    text-align: center;
+                list-style-type:none;
 }
-.partieJavaScript1 li {
-width:50%;
-margin:2%;
+    .partieJavaScript1 li {
+        width:50%;
+            margin:2%;
 }
-.imgJavaScript2 {
-width:100%;
-display:flex;
-flex-direction:row;
+    .imgJavaScript2 {
+        width:100%;
+            display:flex;
+                flex-direction:row;
 }
-.jeuxDuShiFuMiJavaScript {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .jeuxDuShiFuMiJavaScript {
+        width:90%;
+            height:150px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            margin:2%;
 }
-.jeuxDuPuissance4JavaScript {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .jeuxDuPuissance4JavaScript {
+        width:90%;
+            height:150px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            margin:2%;
 }
-.partieJavaScript2 {
-display:flex;
-flex-direction:row;
-color:white;
-text-align: center;
-list-style-type:none;
+    .partieJavaScript2 {
+        display:flex;
+            flex-direction:row;
+                color:white;
+                    text-align: center;
+                list-style-type:none;
 }
-.partieJavaScript1 li {
-width:50%;
-margin:2%;
+    .partieJavaScript1 li {
+        width:50%;
+            margin:2%;
 }
     /* Partie PHP */
-.imgPhp {
-width:100%;
-display:flex;
-flex-direction:row;
+    .imgPhp {
+        width:100%;
+            display:flex;
+                flex-direction:row;
 }
-.tableDeMultiplicationPhp {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .tableDeMultiplicationPhp {
+        width:90%;
+            height:150px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            margin:2%;
 }
-.formulairePhp {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .formulairePhp {
+        width:90%;
+            height:150px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            margin:2%;
 }
-.partiePhp {
-display:flex;
-flex-direction:row;
-color:white;
-text-align: center;
-list-style-type:none;
+    .partiePhp {
+        display:flex;
+            flex-direction:row;
+                color:white;
+                    text-align: center;
+                list-style-type:none;
 }
-a {
-width:100%;
-text-decoration:none;
+    a {
+        width:100%;
+            text-decoration:none;
 }
         /* Pour le site html */
-.siteHtmlCssPartie2 {
-width:100%;
+    .siteHtmlCssPartie2 {
+        width:100%;
 }
-.siteHtmlCssPartie3 {
-width:80%;
+    .siteHtmlCssPartie3 {
+        width:80%;
+            margin:10% 10% 5% 10%;
 }
-.siteHtmlCssPartie4 {
-    width:80%;
+    .siteHtmlCssPartie4 {
+         width:80%;
+            margin-left:10%;
+                margin-right:10%;
 }
-.siteHtmlCssPartie5 {
-text-align:center;
-font-size:80%;
-color:white;
+    .siteHtmlCssPartie5 {
+        text-align:center;
+            font-size:80%;
+                color:white;
 }
         /* Pour le site Acces Code */
-.siteAccessCodePartie2 {
-width:100%;
+    .siteAccessCodePartie2 {
+        width:100%;
 }
-.siteAccessCodePartie3 {
-width:80%;
+    .siteAccessCodePartie3 {
+        width:80%;
+            margin:10% 10% 5% 10%;
 }
-.siteAccessCodePartie4 {
-width:80%;
+    .siteAccessCodePartie4 {
+        width:80%;
+            margin-left:10%;
+                margin-right:10%;
 }
-.siteAccessCodePartie5 {
-text-align:center;
-font-size:80%;
-color:white;
+    .siteAccessCodePartie5 {
+        text-align:center;
+            font-size:80%;
+                color:white;
 }
         /* Pour le formulaire avec vérification en JavaScript */
-.formulaireJavaScriptPartie2 {
-width:100%;
+    .formulaireJavaScriptPartie2 {
+        width:100%;
 }
-.formulaireJavaScriptPartie3 {
-width:80%;
+    .formulaireJavaScriptPartie3 {
+        width:80%;
+            margin:10% 10% 5% 10%;
 }
-.formulaireJavaScriptPartie4 {
-width:80%;
 }
-.formulaireJavaScriptPartie5 {
-text-align:center;
-font-size:80%;
-color:white;
+    .formulaireJavaScriptPartie4 {
+        width:80%;
+            margin-left:10%;
+                margin-right:10%;
+}
+    .formulaireJavaScriptPartie5 {
+        text-align:center;
+            font-size:80%;
+                color:white;
 }
         /* Pour la calculatrice en JavaScript */
-.calculatriceJavaScriptPartie2 {
-width:100%;
+    .calculatriceJavaScriptPartie2 {
+        width:100%;
 }
-.calculatriceJavaScriptPartie3 {
-width:80%;
-margin:10% 10% 0% 10%;   
+    .calculatriceJavaScriptPartie3 {
+        width:80%;
+            margin:10% 10% 0% 10%;   
 }
-.calculatriceJavaScriptPartie4 {
-text-align:center;
-font-size:150%;
-color:white;
+    .calculatriceJavaScriptPartie4 {
+        text-align:center;
+            font-size:150%;
+                color:white;
 }
         /* Pour le Shi Fu Mi */
-.jeuxDuShiFuMiJavaScriptPartie2 {
-width:100%;
+    .jeuxDuShiFuMiJavaScriptPartie2 {
+        width:100%;
 }
-.jeuxDuShiFuMiJavaScriptPartie3 {
-width:80%;
-margin:10%;
+    .jeuxDuShiFuMiJavaScriptPartie3 {
+        width:80%;
+            margin:10%;
 }
-.jeuxDuShiFuMiJavaScriptPartie4 {
-width:80%;
-margin-left:10%;
+    .jeuxDuShiFuMiJavaScriptPartie4 {
+        width:80%;
+            margin-left:10%;
 }
-.jeuxDuShiFuMiJavaScriptPartie5 {
-text-align:center;
-font-size:150%;
-color:white;
+    .jeuxDuShiFuMiJavaScriptPartie5 {
+        text-align:center;
+            font-size:150%;
+                color:white;
 }
         /* Pour le Puissance 4 */
-.jeuxDuPuissance4JavaScriptPartie2 {
-width:100%;
+    .jeuxDuPuissance4JavaScriptPartie2 {
+        width:100%;
 }
-.jeuxDuPuissance4JavaScriptPartie3 {
-width:80%;
-margin:10%;
+    .jeuxDuPuissance4JavaScriptPartie3 {
+        width:80%;
+            margin:10%;
 }
-.jeuxDuPuissance4JavaScriptPartie4 {
-width:80%;
-margin-left:10%;
+    .jeuxDuPuissance4JavaScriptPartie4 {
+        width:80%;
+            margin-left:10%;
 }
-.jeuxDuPuissance4JavaScriptPartie5 {
-text-align:center;
-font-size:150%;
-color:white;
+    .jeuxDuPuissance4JavaScriptPartie5 {
+        text-align:center;
+            font-size:150%;
+                color:white;
 }
         /* Pour la Table De Multiplication */
-.tableDeMultiplicationPhpPartie2 {
-width:100%;
+    .tableDeMultiplicationPhpPartie2 {
+        width:100%;
 }
-.tableDeMultiplicationPhpPartie3 {
-width:80%;
-margin:10% 10% 0% 10%;   
+    .tableDeMultiplicationPhpPartie3 {
+        width:80%;
+            margin:10% 10% 0% 10%;   
 }
-.tableDeMultiplicationPhpPartie4 {
-text-align:center;
-font-size:150%;
-color:white;
+    .tableDeMultiplicationPhpPartie4 {
+        text-align:center;
+            font-size:150%;
+                color:white;
 }
         /* Pour le Formulaire Php */
-.formulairePhpPartie2 {
-width:100%;
+    .formulairePhpPartie2 {
+        width:100%;
 }
-.formulairePhpPartie3 {
-width:80%;
-margin:10% 10% 0% 10%;   
+    .formulairePhpPartie3 {
+        width:80%;
+            margin:10% 10% 0% 10%;   
 }
-.formulairePhpPartie4 {
-text-align:center;
-font-size:150%;
-color:white;
+    .formulairePhpPartie4 {
+        text-align:center;
+            font-size:150%;
+                color:white;
 }
-li {
-width:50%;
+    li {
+        width:50%;
 }
         /* Version Desktop */
-@media screen and (min-width: 480px) {
-* {
-margin:0;
-padding:0;
+@media screen and (min-width : 480px) {
+    h1 {
+        color:white;
+            text-align:center;
+                font-size:200%;
 }
-html {
-background-image:url("img/galaxy-s7-edge-2-knox\ \(1\).jpg");
-font-family: 'Caveat', sans-serif
+    nav {
+        position: fixed;
+            width:100%;
+                background-color: rgba(0, 0, 0, .8);
+                    margin:auto;
+                z-index:1;
 }
-h1 {
-color:white;
-text-align:center;
+    #menu-demo2{
+        list-style-type:none;
+            font-size:200%;
 }
-nav {
-position: fixed;
-width:100%;
-background-color: rgba(0, 0, 0, .8);
-margin:auto;
+    .menu2 {
+        width:100%;
+            margin:auto;
+                color: white;
+                    text-align: center;
 }
-.logo img {
--webkit-filter: grayscale(0) blur(0px);
-filter: grayscale(0) blur(0px);
--webkit-transition: all 0.5s ease;
-transition: all 0.5s ease;
+    .menu {
+        display:flex;
+            margin:auto;
+                width:100%;
+                    list-style-type:none;
 }
-.logo:hover img {
-border-radius: 50%;  /* on arrondit l'image */
--webkit-transform: rotate(360deg); /* rotation de l'image */
-transform: rotate(360deg);
+    .menu li {
+        text-align:center;
+            color:white;
+
 }
-.logo {
-width:80%;
-margin:auto;
-padding:5%;
+    .menu a {
+        color:white;
+            font-size:80%;
 }
-.logoImg {
-width:100%;
--webkit-box-shadow: 11px 13px 10px 7px #199128; 
-box-shadow: 2px 20px 20px 20px #199128;
+    footer {
+        text-align: center;
+            position: fixed;
+                background-color: rgba(0, 0, 0, .8);
+                    bottom: 0;
+                width:100%;
+            border:white solid 2px;
+        padding:1%;
+            font-size:150%;    
 }
-/* Partie pour HTML et CSS */
-h2 {
-text-align:center;
-color:white;
-margin:5%;
+    footer a {
+        color:white;
 }
-.siteHtml {
--webkit-transform: scale(1);
-transform: scale(1);
--webkit-transition: .3s ease-in-out;
-transition: .3s ease-in-out;
+    .logo img {
+        -webkit-filter: grayscale(0) blur(0px);
+            filter: grayscale(0) blur(0px);
+                -webkit-transition: all 0.5s ease;
+                    transition: all 0.5s ease;
 }
-.siteHtml:hover {
--webkit-transform: scale(1.3);
-transform: scale(1.3);
+    .logo:hover img {
+        border-radius: 50%;  /* on arrondit l'image */
+            -webkit-transform: rotate(360deg); /* rotation de l'image */
+                transform: rotate(360deg);
 }
-.siteAccessCode {
--webkit-transform: scale(1);
-transform: scale(1);
--webkit-transition: .3s ease-in-out;
-transition: .3s ease-in-out;
+    .logo {
+        width:40%;
+            margin:auto;
+                padding:5%;
 }
-.siteAccessCode:hover {
--webkit-transform: scale(1.3);
-transform: scale(1.3);
+    .logoImg {
+        width:100%;
+            -webkit-box-shadow: 11px 13px 10px 7px #199128; 
+                box-shadow: 2px 20px 20px 20px #199128;
 }
-.imgHtmlCss {
-width:100%;
-display:flex;
-flex-direction:row;
+        /* Partie pour HTML et CSS */
+    h2 {
+        text-align:center;
+            color:white;
+                margin:5%;
 }
-.siteHtml {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .siteHtml {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
 }
-.siteAccessCode {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .siteHtml:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
 }
-.partieHtmlCss {
-display:flex;
-flex-direction:row;
-color:white;
-text-align: center;
-list-style-type:none;
+    .siteAccessCode {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
 }
-/* Partie JAVASCRIPT */
-.imgJavaScript1 {
-width:100%;
-display:flex;
-flex-direction:row;
+    .siteAccessCode:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
 }
-.formulaireJavaScript {
--webkit-transform: scale(1);
-transform: scale(1);
--webkit-transition: .3s ease-in-out;
-transition: .3s ease-in-out;
+    .imgHtmlCss {
+        width:100%;
+            display:flex;
+                flex-direction:row;
 }
-.formulaireJavaScript:hover {
--webkit-transform: scale(1.3);
-transform: scale(1.3);
+    .imgHtmlCss a {
+        width:100%;
+            text-align:center;
 }
-.calculatriceJavaScript {
--webkit-transform: scale(1);
-transform: scale(1);
--webkit-transition: .3s ease-in-out;
-transition: .3s ease-in-out;
+    .siteHtml {
+        width:50%;
+            height:400px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
+        max-height:400px;
 }
-.calculatriceJavaScript:hover {
--webkit-transform: scale(1.3);
-transform: scale(1.3);
+    .siteAccessCode {
+        width:50%;
+            height:400px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
 }
-.jeuxDuShiFuMiJavaScript {
--webkit-transform: scale(1);
-transform: scale(1);
--webkit-transition: .3s ease-in-out;
-transition: .3s ease-in-out;
+    .partieHtmlCss {
+        display:flex;
+            flex-direction:row;
+                color:white;
+                    text-align: center;
+                list-style-type:none;
+            font-size:150%;
 }
-.jeuxDuShiFuMiJavaScript:hover {
--webkit-transform: scale(1.3);
-transform: scale(1.3);
+        /* Partie JAVASCRIPT */
+    .formulaireJavaScript {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
 }
-.jeuxDuPuissance4JavaScript {
--webkit-transform: scale(1);
-transform: scale(1);
--webkit-transition: .3s ease-in-out;
-transition: .3s ease-in-out;
+    .formulaireJavaScript:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
 }
-.jeuxDuPuissance4JavaScript:hover {
--webkit-transform: scale(1.3);
-transform: scale(1.3);
+    .calculatriceJavaScript {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                transition: .3s ease-in-out;
 }
-.formulaireJavaScript {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .calculatriceJavaScript:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
 }
-.calculatriceJavaScript {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .jeuxDuShiFuMiJavaScript {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
 }
-.partieJavaScript1 {
-display:flex;
-flex-direction:row;
-color:white;
-text-align: center;
-list-style-type:none;
+    .jeuxDuShiFuMiJavaScript:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
 }
-.partieJavaScript1 li {
-width:50%;
-margin:2%;
+    .jeuxDuPuissance4JavaScript {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
 }
-.imgJavaScript2 {
-width:100%;
-display:flex;
-flex-direction:row;
+    .jeuxDuPuissance4JavaScript:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
 }
-.jeuxDuShiFuMiJavaScript {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .formulaireJavaScript {
+        width:50%;
+            height:400px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
 }
-.jeuxDuPuissance4JavaScript {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .calculatriceJavaScript {
+        width:50%;
+            height:400px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
 }
-.partieJavaScript2 {
-display:flex;
-flex-direction:row;
-color:white;
-text-align: center;
-list-style-type:none;
+    .partieJavaScript1 {
+        display:flex;
+            flex-direction:row;
+                color:white;
+                    text-align: center;
+                list-style-type:none;
+            margin-bottom:2%;
 }
-.partieJavaScript1 li {
-width:50%;
-margin:2%;
+    .imgJavaScript1 {
+        width:100%;
+            display:flex;
+                flex-direction:row;
 }
-/* Partie PHP */
-.imgPhp {
-width:100%;
-display:flex;
-flex-direction:row;
+    .imgJavaScript1 a {
+        width:100%;
+            text-align:center;
 }
-.tableDeMultiplicationPhp {
--webkit-transform: scale(1);
-transform: scale(1);
--webkit-transition: .3s ease-in-out;
-transition: .3s ease-in-out;
+    .partieJavaScript1 li {
+        width:50%;
+            font-size:150%;
 }
-.tableDeMultiplicationPhp:hover {
--webkit-transform: scale(1.3);
-transform: scale(1.3);
+    .imgJavaScript2 {
+        width:100%;
+            display:flex;
+                flex-direction:row;
 }
-.formulairePhp {
--webkit-transform: scale(1);
-transform: scale(1);
--webkit-transition: .3s ease-in-out;
-transition: .3s ease-in-out;
+    .imgJavaScript2 a {
+        width: 100%;
+            text-align:center;
 }
-.formulairePhp:hover {
--webkit-transform: scale(1.3);
-transform: scale(1.3);
+    .jeuxDuShiFuMiJavaScript {
+        width:50%;
+            height:400px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
 }
-.tableDeMultiplicationPhp {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .jeuxDuPuissance4JavaScript {
+        width:50%;
+            height:400px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
 }
-.formulairePhp {
-width:90%;
-height:150px;
-border:black solid 2px;
--webkit-box-shadow: 5px 5px 5px 5px #199128; 
-box-shadow: 5px 5px 5px 5px #199128;
-margin:2%;
+    .partieJavaScript2 {
+        display:flex;
+            flex-direction:row;
+                color:white;
+                    text-align: center;
+                list-style-type:none;
+            margin-bottom:2%;
 }
-.partiePhp {
-display:flex;
-flex-direction:row;
-color:white;
-text-align: center;
-list-style-type:none;
+    .partieJavaScript2 li {
+        width:50%;
+            font-size:150%;
 }
-a {
-width:100%;
-text-decoration:none;
+        /* Partie PHP */
+    .tableDeMultiplicationPhp {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
+}
+    .tableDeMultiplicationPhp:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+}
+    .formulairePhp {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
+}
+    .formulairePhp:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+}
+    .tableDeMultiplicationPhp {
+        width:65%;
+            height:500px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
+}
+    .imgPhp {
+        width:100%;
+            display:flex;
+                flex-direction:row;
+}
+    .imgPhp a {
+        width:100%;
+            text-align: center;
+}
+    .formulairePhp {
+        width:65%;
+            height:500px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
+}
+    .partiePhp {
+        display:flex;
+            flex-direction:row;
+                color:white;
+                    text-align: center;
+                list-style-type:none;
+}
+    .partiePhp li {
+        width:50%;
+            font-size:150%;
+}
+    a {
+        width:100%;
+            text-decoration:none;
+                color:rgb(16, 133, 16);
 }
     /* Pour le site html */
-.siteHtmlCssPartie2 {
-width:100%;
+    .siteHtmlCssPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
 }
-.siteHtmlCssPartie3 {
-width:80%;
+    .siteHtmlCssPartie2 {
+        width:100%;
+           text-align: center;
 }
-.siteHtmlCssPartie4 {
-width:80%;
+    .siteHtmlCssPartie3 {
+        width:65%;
+            margin:2%;
+                border-radius:2%;
 }
-.siteHtmlCssPartie5 {
-text-align:center;
-font-size:80%;
-color:white;
+    .siteHtmlCssPartie4 {
+        width:65%;
+            border-radius:2%;
+}
+    .siteHtmlCssPartie5 {
+        text-align:center;
+            font-size:250%;
+                color:white;
 }
     /* Pour le site Acces Code */
-.siteAccessCodePartie2 {
-width:100%;
+    .siteAccessCodePartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
+    }
+    .siteAccessCodePartie2 {
+        width:100%;
+            text-align: center;
 }
-.siteAccessCodePartie3 {
-width:80%;
+    .siteAccessCodePartie3 {
+        width:65%;
+            margin:2%;
+                border-radius:2%;
 }
-.siteAccessCodePartie4 {
-width:80%;
+    .siteAccessCodePartie4 {
+        width:65%;
+            border-radius:2%;
 }
-.siteAccessCodePartie5 {
-text-align:center;
-font-size:80%;
-color:white;
+    .siteAccessCodePartie5 {
+        text-align:center;
+            font-size:250%;
+                color:white;
 }
     /* Pour le formulaire avec vérification en JavaScript */
-.formulaireJavaScriptPartie2 {
-width:100%;
+    .formulaireJavaScriptPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
+        }
+    .formulaireJavaScriptPartie2 {
+        width:100%;
+            text-align: center;
 }
-.formulaireJavaScriptPartie3 {
-width:80%;
+    .formulaireJavaScriptPartie3 {
+        width:35%;
+            height:680px;
+                margin:2%;
+                    border-radius:2%;
 }
-.formulaireJavaScriptPartie4 {
-width:80%;
+    .formulaireJavaScriptPartie4 {
+        width:35%;
+            height:680px;
+                margin:2%;
+                    border-radius:2%;
 }
-.formulaireJavaScriptPartie5 {
-text-align:center;
-font-size:80%;
-color:white;
+    .formulaireJavaScriptPartie5 {
+        text-align:center;
+            font-size:250%;
+                color:white;
 }
     /* Pour la calculatrice en JavaScript */
-.calculatriceJavaScriptPartie2 {
-width:100%;
+    .calculatriceJavaScriptPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
 }
-.calculatriceJavaScriptPartie3 {
-width:80%;
-margin:10% 10% 0% 10%;   
+    .calculatriceJavaScriptPartie2 {
+        width:100%;
+            text-align: center;
 }
-.calculatriceJavaScriptPartie4 {
-text-align:center;
-font-size:150%;
-color:white;
+    .calculatriceJavaScriptPartie3 {
+        width:45%;
+            height:650px;
+                border-radius:2%;           
+}
+    .calculatriceJavaScriptPartie4 {
+        text-align:center;
+            font-size:250%;
+                color:white;
 }
     /* Pour le Shi Fu Mi */
-.jeuxDuShiFuMiJavaScriptPartie2 {
-width:100%;
+    .jeuxDuShiFuMiJavaScriptPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
 }
-.jeuxDuShiFuMiJavaScriptPartie3 {
-width:80%;
-margin:10%;
+    .jeuxDuShiFuMiJavaScriptPartie2 {
+        width:100%;
+            text-align:center;
 }
-.jeuxDuShiFuMiJavaScriptPartie4 {
-width:80%;
-margin-left:10%;
+    .jeuxDuShiFuMiJavaScriptPartie3 {
+        width:35%;
+            height:680px;
+                margin:2%;
+                    border-radius:2%;
 }
-.jeuxDuShiFuMiJavaScriptPartie5 {
-text-align:center;
-font-size:150%;
-color:white;
+    .jeuxDuShiFuMiJavaScriptPartie4 {
+        width:35%;
+            height:680px;
+                margin:2%;
+                    border-radius:2%;
+}
+    .jeuxDuShiFuMiJavaScriptPartie5 {
+        text-align:center;
+            font-size:250%;
+                color:white;
 }
     /* Pour le Puissance 4 */
-.jeuxDuPuissance4JavaScriptPartie2 {
-width:100%;
+    .jeuxDuPuissance4JavaScriptPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
 }
-.jeuxDuPuissance4JavaScriptPartie3 {
-width:80%;
-margin:10%;
+    .jeuxDuPuissance4JavaScriptPartie2 {
+        width:100%;
+            text-align: center;
 }
-.jeuxDuPuissance4JavaScriptPartie4 {
-width:80%;
-margin-left:10%;
+    .jeuxDuPuissance4JavaScriptPartie3 {
+        width:28%;
+            height:680px;
+                margin:2%;
+                    border-radius:2%;
 }
-.jeuxDuPuissance4JavaScriptPartie5 {
-text-align:center;
-font-size:150%;
-color:white;
+    .jeuxDuPuissance4JavaScriptPartie4 {
+        width:28%;
+            height:680px;
+                margin:2%;
+                    border-radius:2%;
+}
+    .jeuxDuPuissance4JavaScriptPartie5 {
+        text-align:center;
+            font-size:250%;
+                color:white;
 }
     /* Pour la Table De Multiplication */
-.tableDeMultiplicationPhpPartie2 {
-width:100%;
+    .tableDeMultiplicationPhpPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
 }
-.tableDeMultiplicationPhpPartie3 {
-width:80%;
-margin:10% 10% 0% 10%;   
+    .tableDeMultiplicationPhpPartie2 {
+        width:100%;
+            text-align:center;
 }
-.tableDeMultiplicationPhpPartie4 {
-text-align:center;
-font-size:150%;
-color:white;
+    .tableDeMultiplicationPhpPartie3 {
+        width:35%;
+            height:650px; 
+                border-radius:2%;
+}
+    .tableDeMultiplicationPhpPartie4 {
+        text-align:center;
+            font-size:250%;
+                color:white;
 }
     /* Pour le Formulaire Php */
-.formulairePhpPartie2 {
-width:100%;
+    .formulairePhpPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
 }
-.formulairePhpPartie3 {
-width:80%;
-margin:10% 10% 0% 10%;   
+    .formulairePhpPartie2 {
+        width:100%;
+            text-align:center;
 }
-.formulairePhpPartie4 {
-text-align:center;
-font-size:150%;
-color:white;
+    .formulairePhpPartie3 {
+        width:35%;
+            height:650px;
+                border-radius:2%;
 }
-li {
-width:50%;
+    .formulairePhpPartie4 {
+        text-align:center;
+            font-size:250%;
+                color:white;
+                    margin-bottom:5%;
+}
+    li {
+        width:50%;
+}
 }
 
 
-
-
-}
