@@ -4,6 +4,7 @@ padding:0;
 }
 html {
 background-image:url("img/galaxy-s7-edge-2-knox\ \(1\).jpg");
+font-family: 'Caveat', sans-serif
 }
 h1 {
 color:white;
@@ -40,6 +41,7 @@ border-radius:8px 8px 0 0;
 #menu-demo2 ul li{
 display:inherit;
 border-radius:0;
+width:100%;
 }
 #menu-demo2 ul li:hover{
 border-radius:0;
@@ -109,17 +111,17 @@ flex-direction:row;
 width:90%;
 height:150px;
 border:black solid 2px;
--webkit-box-shadow: 5px 6px 5px 2px #199128; 
-box-shadow: 2px 10px 10px 10px #199128;
-margin:5%;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
 }
-.siteAccesCode {
+.siteAccessCode {
 width:90%;
 height:150px;
 border:black solid 2px;
--webkit-box-shadow: 5px 6px 5px 2px #199128; 
-box-shadow: 2px 10px 10px 10px #199128;
-margin:5%;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
 }
 .partieHtmlCss {
 display:flex;
@@ -134,21 +136,27 @@ width:100%;
 display:flex;
 flex-direction:row;
 }
+.jeuxDuShiFuMiJavaScript {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
 .formulaireJavaScript {
-    width:90%;
-    height:150px;
-    border:black solid 2px;
-    -webkit-box-shadow: 5px 6px 5px 2px #199128; 
-    box-shadow: 2px 10px 10px 10px #199128;
-    margin:5%;
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
 }
 .calculatriceJavaScript {
-    width:90%;
-    height:150px;
-    border:black solid 2px;
-    -webkit-box-shadow: 5px 6px 5px 2px #199128; 
-    box-shadow: 2px 10px 10px 10px #199128;
-    margin:5%;
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
 }
 .partieJavaScript1 {
 display:flex;
@@ -167,20 +175,20 @@ display:flex;
 flex-direction:row;
 }
 .jeuxDuShiFuMiJavaScript {
-    width:90%;
-    height:150px;
-    border:black solid 2px;
-    -webkit-box-shadow: 5px 6px 5px 2px #199128; 
-    box-shadow: 2px 10px 10px 10px #199128;
-    margin:5%;
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
 }
-.jeuxDuShiFuMiJavaScript {
-    width:90%;
-    height:150px;
-    border:black solid 2px;
-    -webkit-box-shadow: 5px 6px 5px 2px #199128; 
-    box-shadow: 2px 10px 10px 10px #199128;
-    margin:5%;
+.jeuxDuPuissance4JavaScript {
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
 }
 .partieJavaScript2 {
 display:flex;
@@ -200,20 +208,20 @@ display:flex;
 flex-direction:row;
 }
 .tableDeMultiplicationPhp {
-    width:90%;
-    height:150px;
-    border:black solid 2px;
-    -webkit-box-shadow: 5px 6px 5px 2px #199128; 
-    box-shadow: 2px 10px 10px 10px #199128;
-    margin:5%;
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
 }
 .formulairePhp {
-    width:90%;
-    height:150px;
-    border:black solid 2px;
-    -webkit-box-shadow: 5px 6px 5px 2px #199128; 
-    box-shadow: 2px 10px 10px 10px #199128;
-    margin:5%;
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
 }
 .partiePhp {
 display:flex;
@@ -224,5 +232,505 @@ list-style-type:none;
 }
 a {
 width:100%;
+text-decoration:none;
+}
+        /* Pour le site html */
+.siteHtmlCssPartie2 {
+width:100%;
+}
+.siteHtmlCssPartie3 {
+width:80%;
+}
+.siteHtmlCssPartie4 {
+    width:80%;
+}
+.siteHtmlCssPartie5 {
+text-align:center;
+font-size:80%;
+color:white;
+}
+        /* Pour le site Acces Code */
+.siteAccessCodePartie2 {
+width:100%;
+}
+.siteAccessCodePartie3 {
+width:80%;
+}
+.siteAccessCodePartie4 {
+width:80%;
+}
+.siteAccessCodePartie5 {
+text-align:center;
+font-size:80%;
+color:white;
+}
+        /* Pour le formulaire avec vérification en JavaScript */
+.formulaireJavaScriptPartie2 {
+width:100%;
+}
+.formulaireJavaScriptPartie3 {
+width:80%;
+}
+.formulaireJavaScriptPartie4 {
+width:80%;
+}
+.formulaireJavaScriptPartie5 {
+text-align:center;
+font-size:80%;
+color:white;
+}
+        /* Pour la calculatrice en JavaScript */
+.calculatriceJavaScriptPartie2 {
+width:100%;
+}
+.calculatriceJavaScriptPartie3 {
+width:80%;
+margin:10% 10% 0% 10%;   
+}
+.calculatriceJavaScriptPartie4 {
+text-align:center;
+font-size:150%;
+color:white;
+}
+        /* Pour le Shi Fu Mi */
+.jeuxDuShiFuMiJavaScriptPartie2 {
+width:100%;
+}
+.jeuxDuShiFuMiJavaScriptPartie3 {
+width:80%;
+margin:10%;
+}
+.jeuxDuShiFuMiJavaScriptPartie4 {
+width:80%;
+margin-left:10%;
+}
+.jeuxDuShiFuMiJavaScriptPartie5 {
+text-align:center;
+font-size:150%;
+color:white;
+}
+        /* Pour le Puissance 4 */
+.jeuxDuPuissance4JavaScriptPartie2 {
+width:100%;
+}
+.jeuxDuPuissance4JavaScriptPartie3 {
+width:80%;
+margin:10%;
+}
+.jeuxDuPuissance4JavaScriptPartie4 {
+width:80%;
+margin-left:10%;
+}
+.jeuxDuPuissance4JavaScriptPartie5 {
+text-align:center;
+font-size:150%;
+color:white;
+}
+        /* Pour la Table De Multiplication */
+.tableDeMultiplicationPhpPartie2 {
+width:100%;
+}
+.tableDeMultiplicationPhpPartie3 {
+width:80%;
+margin:10% 10% 0% 10%;   
+}
+.tableDeMultiplicationPhpPartie4 {
+text-align:center;
+font-size:150%;
+color:white;
+}
+        /* Pour le Formulaire Php */
+.formulairePhpPartie2 {
+width:100%;
+}
+.formulairePhpPartie3 {
+width:80%;
+margin:10% 10% 0% 10%;   
+}
+.formulairePhpPartie4 {
+text-align:center;
+font-size:150%;
+color:white;
+}
+li {
+width:50%;
+}
+        /* Version Desktop */
+@media screen and (min-width: 480px) {
+* {
+margin:0;
+padding:0;
+}
+html {
+background-image:url("img/galaxy-s7-edge-2-knox\ \(1\).jpg");
+font-family: 'Caveat', sans-serif
+}
+h1 {
+color:white;
+text-align:center;
+}
+nav {
+position: fixed;
+width:100%;
+background-color: rgba(0, 0, 0, .8);
+margin:auto;
+}
+.logo img {
+-webkit-filter: grayscale(0) blur(0px);
+filter: grayscale(0) blur(0px);
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.logo:hover img {
+border-radius: 50%;  /* on arrondit l'image */
+-webkit-transform: rotate(360deg); /* rotation de l'image */
+transform: rotate(360deg);
+}
+.logo {
+width:80%;
+margin:auto;
+padding:5%;
+}
+.logoImg {
+width:100%;
+-webkit-box-shadow: 11px 13px 10px 7px #199128; 
+box-shadow: 2px 20px 20px 20px #199128;
+}
+/* Partie pour HTML et CSS */
+h2 {
+text-align:center;
+color:white;
+margin:5%;
+}
+.siteHtml {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.siteHtml:hover {
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+.siteAccessCode {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.siteAccessCode:hover {
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+.imgHtmlCss {
+width:100%;
+display:flex;
+flex-direction:row;
+}
+.siteHtml {
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
+}
+.siteAccessCode {
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
+}
+.partieHtmlCss {
+display:flex;
+flex-direction:row;
+color:white;
+text-align: center;
+list-style-type:none;
+}
+/* Partie JAVASCRIPT */
+.imgJavaScript1 {
+width:100%;
+display:flex;
+flex-direction:row;
+}
+.formulaireJavaScript {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.formulaireJavaScript:hover {
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+.calculatriceJavaScript {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.calculatriceJavaScript:hover {
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+.jeuxDuShiFuMiJavaScript {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.jeuxDuShiFuMiJavaScript:hover {
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+.jeuxDuPuissance4JavaScript {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.jeuxDuPuissance4JavaScript:hover {
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+.formulaireJavaScript {
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
+}
+.calculatriceJavaScript {
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
+}
+.partieJavaScript1 {
+display:flex;
+flex-direction:row;
+color:white;
+text-align: center;
+list-style-type:none;
+}
+.partieJavaScript1 li {
+width:50%;
+margin:2%;
+}
+.imgJavaScript2 {
+width:100%;
+display:flex;
+flex-direction:row;
+}
+.jeuxDuShiFuMiJavaScript {
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
+}
+.jeuxDuPuissance4JavaScript {
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
+}
+.partieJavaScript2 {
+display:flex;
+flex-direction:row;
+color:white;
+text-align: center;
+list-style-type:none;
+}
+.partieJavaScript1 li {
+width:50%;
+margin:2%;
+}
+/* Partie PHP */
+.imgPhp {
+width:100%;
+display:flex;
+flex-direction:row;
+}
+.tableDeMultiplicationPhp {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.tableDeMultiplicationPhp:hover {
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+.formulairePhp {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.formulairePhp:hover {
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+.tableDeMultiplicationPhp {
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
+}
+.formulairePhp {
+width:90%;
+height:150px;
+border:black solid 2px;
+-webkit-box-shadow: 5px 5px 5px 5px #199128; 
+box-shadow: 5px 5px 5px 5px #199128;
+margin:2%;
+}
+.partiePhp {
+display:flex;
+flex-direction:row;
+color:white;
+text-align: center;
+list-style-type:none;
+}
+a {
+width:100%;
+text-decoration:none;
+}
+    /* Pour le site html */
+.siteHtmlCssPartie2 {
+width:100%;
+}
+.siteHtmlCssPartie3 {
+width:80%;
+}
+.siteHtmlCssPartie4 {
+width:80%;
+}
+.siteHtmlCssPartie5 {
+text-align:center;
+font-size:80%;
+color:white;
+}
+    /* Pour le site Acces Code */
+.siteAccessCodePartie2 {
+width:100%;
+}
+.siteAccessCodePartie3 {
+width:80%;
+}
+.siteAccessCodePartie4 {
+width:80%;
+}
+.siteAccessCodePartie5 {
+text-align:center;
+font-size:80%;
+color:white;
+}
+    /* Pour le formulaire avec vérification en JavaScript */
+.formulaireJavaScriptPartie2 {
+width:100%;
+}
+.formulaireJavaScriptPartie3 {
+width:80%;
+}
+.formulaireJavaScriptPartie4 {
+width:80%;
+}
+.formulaireJavaScriptPartie5 {
+text-align:center;
+font-size:80%;
+color:white;
+}
+    /* Pour la calculatrice en JavaScript */
+.calculatriceJavaScriptPartie2 {
+width:100%;
+}
+.calculatriceJavaScriptPartie3 {
+width:80%;
+margin:10% 10% 0% 10%;   
+}
+.calculatriceJavaScriptPartie4 {
+text-align:center;
+font-size:150%;
+color:white;
+}
+    /* Pour le Shi Fu Mi */
+.jeuxDuShiFuMiJavaScriptPartie2 {
+width:100%;
+}
+.jeuxDuShiFuMiJavaScriptPartie3 {
+width:80%;
+margin:10%;
+}
+.jeuxDuShiFuMiJavaScriptPartie4 {
+width:80%;
+margin-left:10%;
+}
+.jeuxDuShiFuMiJavaScriptPartie5 {
+text-align:center;
+font-size:150%;
+color:white;
+}
+    /* Pour le Puissance 4 */
+.jeuxDuPuissance4JavaScriptPartie2 {
+width:100%;
+}
+.jeuxDuPuissance4JavaScriptPartie3 {
+width:80%;
+margin:10%;
+}
+.jeuxDuPuissance4JavaScriptPartie4 {
+width:80%;
+margin-left:10%;
+}
+.jeuxDuPuissance4JavaScriptPartie5 {
+text-align:center;
+font-size:150%;
+color:white;
+}
+    /* Pour la Table De Multiplication */
+.tableDeMultiplicationPhpPartie2 {
+width:100%;
+}
+.tableDeMultiplicationPhpPartie3 {
+width:80%;
+margin:10% 10% 0% 10%;   
+}
+.tableDeMultiplicationPhpPartie4 {
+text-align:center;
+font-size:150%;
+color:white;
+}
+    /* Pour le Formulaire Php */
+.formulairePhpPartie2 {
+width:100%;
+}
+.formulairePhpPartie3 {
+width:80%;
+margin:10% 10% 0% 10%;   
+}
+.formulairePhpPartie4 {
+text-align:center;
+font-size:150%;
+color:white;
+}
+li {
+width:50%;
+}
+
+
+
 
 }
