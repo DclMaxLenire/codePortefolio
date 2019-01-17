@@ -6,6 +6,7 @@
         background-image:url("img/galaxy-s7-edge-2-knox\ \(1\).jpg");
             font-family: 'Caveat', sans-serif;
 }
+        /* ---------------------------- Version Mobile ------------------------------ */
     @media screen and (max-width: 480px) {
         h1 {
             color:white;
@@ -21,11 +22,15 @@
         width:80%;
             margin:auto;
                 padding:5%;
+                    margin-top: 5%;
+                        z-index: -1;
 }
     .logoImg {
         width:100%;
             -webkit-box-shadow: 11px 13px 10px 7px #199128; 
                 box-shadow: 2px 20px 20px 20px #199128;
+               
+                    
 }
     /* Menu déroulant */
     #menu-demo2, #menu-demo2 ul{
@@ -230,6 +235,7 @@
                 color:white;
                     text-align: center;
                 list-style-type:none;
+            margin-bottom: 25%;
 }
     a {
         width:100%;
@@ -366,7 +372,7 @@
     li {
         width:50%;
 }
-        /* Version Desktop */
+        /* ------------------------------- Version Desktop ------------------------------------------- */
 @media screen and (min-width : 480px) {
     h1 {
         color:white;
@@ -445,6 +451,9 @@
             color:white;
                 margin:5%;
 }
+.htmlCss {
+    margin-bottom: 25%;
+} 
     .siteHtml {
         -webkit-transform: scale(1);
             transform: scale(1);
@@ -500,6 +509,9 @@
             font-size:150%;
 }
         /* Partie JAVASCRIPT */
+.javaScript {
+    margin-bottom: 25%;
+}
     .formulaireJavaScript {
         -webkit-transform: scale(1);
             transform: scale(1);
@@ -615,6 +627,9 @@
             font-size:150%;
 }
         /* Partie PHP */
+.php {
+    margin-bottom: 25%;
+}
     .tableDeMultiplicationPhp {
         -webkit-transform: scale(1);
             transform: scale(1);
@@ -699,6 +714,7 @@
         text-align:center;
             font-size:250%;
                 color:white;
+                    margin-bottom: 25%;
 }
     /* Pour le site Acces Code */
     .siteAccessCodePartie1 {
@@ -723,6 +739,7 @@
         text-align:center;
             font-size:250%;
                 color:white;
+                    margin-bottom: 25%;
 }
     /* Pour le formulaire avec vérification en JavaScript */
     .formulaireJavaScriptPartie1 {
@@ -750,6 +767,7 @@
         text-align:center;
             font-size:250%;
                 color:white;
+                margin-bottom: 25%;
 }
     /* Pour la calculatrice en JavaScript */
     .calculatriceJavaScriptPartie1 {
@@ -770,6 +788,7 @@
         text-align:center;
             font-size:250%;
                 color:white;
+                    margin-bottom: 25%;
 }
     /* Pour le Shi Fu Mi */
     .jeuxDuShiFuMiJavaScriptPartie1 {
@@ -797,6 +816,7 @@
         text-align:center;
             font-size:250%;
                 color:white;
+                    margin-bottom: 25%;
 }
     /* Pour le Puissance 4 */
     .jeuxDuPuissance4JavaScriptPartie1 {
@@ -824,6 +844,7 @@
         text-align:center;
             font-size:250%;
                 color:white;
+                    margin-bottom: 25%;
 }
     /* Pour la Table De Multiplication */
     .tableDeMultiplicationPhpPartie1 {
@@ -844,6 +865,7 @@
         text-align:center;
             font-size:250%;
                 color:white;
+                    margin-bottom: 25%;
 }
     /* Pour le Formulaire Php */
     .formulairePhpPartie1 {
@@ -864,11 +886,12 @@
         text-align:center;
             font-size:250%;
                 color:white;
-                    margin-bottom:5%;
+                    margin-bottom: 25%;
 }
     li {
         width:50%;
 }
+
 }
 
 
