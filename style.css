@@ -7,13 +7,13 @@
             font-family: 'Caveat', sans-serif;
 }
         /* ---------------------------- Version Mobile ------------------------------ */
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 720px) {
         h1 {
             color:white;
                 text-align:center;
+                    margin-bottom: 5%;
 }
     nav {
-        position: fixed;
             width:100%;
                 background-color: rgba(0, 0, 0, .8);
                     margin:auto;
@@ -285,7 +285,6 @@
         width:80%;
             margin:10% 10% 5% 10%;
 }
-}
     .formulaireJavaScriptPartie4 {
         width:80%;
             margin-left:10%;
@@ -369,16 +368,31 @@
             font-size:150%;
                 color:white;
 }
-iframe {
+.iframeJavaScriptJeuxDuPuissance4 {
     width: 95%;
     height: 680px;
     margin-left: 1.5%;
+    border-radius: 5%;
 }
     li {
         width:50%;
 }
-        /* ------------------------------- Version Desktop ------------------------------------------- */
-@media screen and (min-width : 480px) {
+footer {
+    text-align: center;
+        position: fixed;
+            background-color: rgba(0, 0, 0, .8);
+                bottom: 0;
+            width:100%;
+        border:white solid 2px;
+    padding:1%;
+        font-size:150%;    
+}
+footer a {
+    color:white;
+}
+}
+/* ----------------------------------- Version Tablette --------------------------------------------- */
+@media screen and (min-width: 720px) and (max-width: 1024px) {
     h1 {
         color:white;
             text-align:center;
@@ -489,16 +503,539 @@ iframe {
             text-align:center;
 }
     .siteHtml {
+        width:65%;
+            height:250px;
+            border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
+}
+    .siteAccessCode {
+        width:65%;
+        height:250px;
+            border:black solid 2px;
+                -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                    box-shadow: 5px 5px 5px 5px #199128;
+                border-radius:2%;
+}
+    .partieHtmlCss {
+        display:flex;
+            flex-direction:row;
+                color:white;
+                    text-align: center;
+                list-style-type:none;
+            font-size:150%;
+}
+        /* Partie JAVASCRIPT */
+.javaScript {
+    margin-bottom: 25%;
+}
+    .formulaireJavaScript {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
+}
+    .formulaireJavaScript:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+}
+    .calculatriceJavaScript {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                transition: .3s ease-in-out;
+}
+    .calculatriceJavaScript:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+}
+    .jeuxDuShiFuMiJavaScript {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
+}
+    .jeuxDuShiFuMiJavaScript:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+}
+    .jeuxDuPuissance4JavaScript {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
+}
+    .jeuxDuPuissance4JavaScript:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+}
+    .formulaireJavaScript {
+        width:65%;
+        height:250px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
+}
+    .calculatriceJavaScript {
+        width:65%;
+        height:250px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
+}
+    .partieJavaScript1 {
+        display:flex;
+            flex-direction:row;
+                color:white;
+                    text-align: center;
+                list-style-type:none;
+            margin-bottom:2%;
+}
+    .imgJavaScript1 {
+        width:100%;
+            display:flex;
+                flex-direction:row;
+}
+    .imgJavaScript1 a {
+        width:100%;
+            text-align:center;
+}
+    .partieJavaScript1 li {
         width:50%;
+            font-size:150%;
+}
+    .imgJavaScript2 {
+        width:100%;
+            display:flex;
+                flex-direction:row;
+}
+    .imgJavaScript2 a {
+        width: 100%;
+            text-align:center;
+}
+    .jeuxDuShiFuMiJavaScript {
+        width:65%;
+        height:250px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
+}
+    .jeuxDuPuissance4JavaScript {
+        width:65%;
+        height:250px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
+}
+    .partieJavaScript2 {
+        display:flex;
+            flex-direction:row;
+                color:white;
+                    text-align: center;
+                list-style-type:none;
+            margin-bottom:2%;
+}
+    .partieJavaScript2 li {
+        width:50%;
+            font-size:150%;
+}
+        /* Partie PHP */
+.php {
+    margin-bottom: 25%;
+}
+    .tableDeMultiplicationPhp {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
+}
+    .tableDeMultiplicationPhp:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+}
+    .formulairePhp {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
+}
+    .formulairePhp:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+}
+    .tableDeMultiplicationPhp {
+        width:65%;
+        height:250px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
+}
+    .imgPhp {
+        width:100%;
+            display:flex;
+                flex-direction:row;
+}
+    .imgPhp a {
+        width:100%;
+            text-align: center;
+}
+    .formulairePhp {
+        width:65%;
+        height:250px;
+                border:black solid 2px;
+                    -webkit-box-shadow: 5px 5px 5px 5px #199128; 
+                box-shadow: 5px 5px 5px 5px #199128;
+            border-radius:2%;
+}
+    .partiePhp {
+        display:flex;
+            flex-direction:row;
+                color:white;
+                    text-align: center;
+                list-style-type:none;
+}
+    .partiePhp li {
+        width:50%;
+            font-size:150%;
+}
+    a {
+        width:100%;
+            text-decoration:none;
+                color:rgb(16, 133, 16);
+}
+    /* Pour le site html */
+    .siteHtmlCssPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
+}
+    .siteHtmlCssPartie2 {
+        width:100%;
+           text-align: center;
+}
+    .siteHtmlCssPartie3 {
+        width:65%;
+            margin:2%;
+                border-radius:2%;
+}
+    .siteHtmlCssPartie4 {
+        width:65%;
+            border-radius:2%;
+}
+    .siteHtmlCssPartie5 {
+        text-align:center;
+            font-size:250%;
+                color:white;
+                    margin-bottom: 25%;
+}
+    /* Pour le site Acces Code */
+    .siteAccessCodePartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
+    }
+    .siteAccessCodePartie2 {
+        width:100%;
+            text-align: center;
+}
+    .siteAccessCodePartie3 {
+        width:65%;
+            margin:2%;
+                border-radius:2%;
+}
+    .siteAccessCodePartie4 {
+        width:65%;
+            border-radius:2%;
+}
+    .siteAccessCodePartie5 {
+        text-align:center;
+            font-size:250%;
+                color:white;
+                    margin-bottom: 25%;
+}
+    /* Pour le formulaire avec vérification en JavaScript */
+    .formulaireJavaScriptPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
+        }
+    .formulaireJavaScriptPartie2 {
+        width:100%;
+            text-align: center;
+}
+    .formulaireJavaScriptPartie3 {
+        width:35%;
+            height:680px;
+                margin:2%;
+                    border-radius:2%;
+}
+    .formulaireJavaScriptPartie4 {
+        width:35%;
+            height:680px;
+                margin:2%;
+                    border-radius:2%;
+}
+    .formulaireJavaScriptPartie5 {
+        text-align:center;
+            font-size:250%;
+                color:white;
+                margin-bottom: 25%;
+}
+    /* Pour la calculatrice en JavaScript */
+    .calculatriceJavaScriptPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
+}
+    .calculatriceJavaScriptPartie2 {
+        width:100%;
+            text-align: center;
+}
+    .calculatriceJavaScriptPartie3 {
+        width:45%;
+            height:650px;
+                border-radius:2%;           
+}
+    .calculatriceJavaScriptPartie4 {
+        text-align:center;
+            font-size:250%;
+                color:white;
+                    margin-bottom: 25%;
+}
+    /* Pour le Shi Fu Mi */
+    .jeuxDuShiFuMiJavaScriptPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
+}
+    .jeuxDuShiFuMiJavaScriptPartie2 {
+        width:100%;
+            text-align:center;
+}
+    .jeuxDuShiFuMiJavaScriptPartie3 {
+        width:35%;
+            height:680px;
+                margin:2%;
+                    border-radius:2%;
+}
+    .jeuxDuShiFuMiJavaScriptPartie4 {
+        width:35%;
+            height:680px;
+                margin:2%;
+                    border-radius:2%;
+}
+    .jeuxDuShiFuMiJavaScriptPartie5 {
+        text-align:center;
+            font-size:250%;
+                color:white;
+                    margin-bottom: 25%;
+}
+    /* Pour le Puissance 4 */
+    .jeuxDuPuissance4JavaScriptPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
+}
+    .jeuxDuPuissance4JavaScriptPartie2 {
+        width:100%;
+            text-align: center;
+}
+    .jeuxDuPuissance4JavaScriptPartie3 {
+        width:28%;
+            height:680px;
+                margin:2%;
+                    border-radius:2%;
+}
+    .jeuxDuPuissance4JavaScriptPartie4 {
+        width:28%;
+            height:680px;
+                margin:2%;
+                    border-radius:2%;
+}
+    .jeuxDuPuissance4JavaScriptPartie5 {
+        text-align:center;
+            font-size:250%;
+                color:white;
+                    margin-bottom: 25%;
+}
+    /* Pour la Table De Multiplication */
+    .tableDeMultiplicationPhpPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
+}
+    .tableDeMultiplicationPhpPartie2 {
+        width:100%;
+            text-align:center;
+}
+    .tableDeMultiplicationPhpPartie3 {
+        width:35%;
+            height:650px; 
+                border-radius:2%;
+}
+    .tableDeMultiplicationPhpPartie4 {
+        text-align:center;
+            font-size:250%;
+                color:white;
+                    margin-bottom: 25%;
+}
+    /* Pour le Formulaire Php */
+    .formulairePhpPartie1 {
+        background-color:gray;
+            border:black solid 2px;
+                border-radius:20%;
+}
+    .formulairePhpPartie2 {
+        width:100%;
+            text-align:center;
+}
+    .formulairePhpPartie3 {
+        width:35%;
+            height:650px;
+                border-radius:2%;
+}
+    .formulairePhpPartie4 {
+        text-align:center;
+            font-size:250%;
+                color:white;
+                    margin-bottom: 25%;
+}
+.iframeJavaScriptJeuxDuPuissance4 {
+    width: 95%;
+    height: 650px;
+    border-radius: 5%;
+}
+    li {
+        width:50%;
+}
+}
+        /* ------------------------------- Version Desktop ------------------------------------------- */
+@media screen and (min-width :1024px) {
+    h1 {
+        color:white;
+            text-align:center;
+                font-size:200%;
+}
+    nav {
+        position: fixed;
+            width:100%;
+                background-color: rgba(0, 0, 0, .8);
+                    margin:auto;
+                z-index:1;
+}
+    #menu-demo2{
+        list-style-type:none;
+            font-size:200%;
+}
+    .menu2 {
+        width:100%;
+            margin:auto;
+                color: white;
+                    text-align: center;
+}
+    .menu {
+        display:flex;
+            margin:auto;
+                width:100%;
+                    list-style-type:none;
+}
+    .menu li {
+        text-align:center;
+            color:white;
+
+}
+    .menu a {
+        color:white;
+            font-size:80%;
+}
+    footer {
+        text-align: center;
+            position: fixed;
+                background-color: rgba(0, 0, 0, .8);
+                    bottom: 0;
+                width:100%;
+            border:white solid 2px;
+        padding:1%;
+            font-size:150%;    
+}
+    footer a {
+        color:white;
+}
+    .logo img {
+        -webkit-filter: grayscale(0) blur(0px);
+            filter: grayscale(0) blur(0px);
+                -webkit-transition: all 0.5s ease;
+                    transition: all 0.5s ease;
+}
+    .logo:hover img {
+        border-radius: 50%;  /* on arrondit l'image */
+            -webkit-transform: rotate(360deg); /* rotation de l'image */
+                transform: rotate(360deg);
+}
+    .logo {
+        width:40%;
+            margin:auto;
+                padding:5%;
+}
+    .logoImg {
+        width:100%;
+            -webkit-box-shadow: 11px 13px 10px 7px #199128; 
+                box-shadow: 2px 20px 20px 20px #199128;
+}
+        /* Partie pour HTML et CSS */
+    h2 {
+        text-align:center;
+            color:white;
+                margin:5%;
+}
+.htmlCss {
+    margin-bottom: 25%;
+} 
+    .siteHtml {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
+}
+    .siteHtml:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+}
+    .siteAccessCode {
+        -webkit-transform: scale(1);
+            transform: scale(1);
+                -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
+}
+    .siteAccessCode:hover {
+        -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+}
+    .imgHtmlCss {
+        width:100%;
+            display:flex;
+                flex-direction:row;
+}
+    .imgHtmlCss a {
+        width:100%;
+            text-align:center;
+}
+    .siteHtml {
+        width:65%;
             height:400px;
                 border:black solid 2px;
                     -webkit-box-shadow: 5px 5px 5px 5px #199128; 
                 box-shadow: 5px 5px 5px 5px #199128;
             border-radius:2%;
-        max-height:400px;
 }
     .siteAccessCode {
-        width:50%;
+        width:65%;
             height:400px;
                 border:black solid 2px;
                     -webkit-box-shadow: 5px 5px 5px 5px #199128; 
@@ -558,7 +1095,7 @@ iframe {
             transform: scale(1.3);
 }
     .formulaireJavaScript {
-        width:50%;
+        width:65%;
             height:400px;
                 border:black solid 2px;
                     -webkit-box-shadow: 5px 5px 5px 5px #199128; 
@@ -566,7 +1103,7 @@ iframe {
             border-radius:2%;
 }
     .calculatriceJavaScript {
-        width:50%;
+        width:65%;
             height:400px;
                 border:black solid 2px;
                     -webkit-box-shadow: 5px 5px 5px 5px #199128; 
@@ -604,7 +1141,7 @@ iframe {
             text-align:center;
 }
     .jeuxDuShiFuMiJavaScript {
-        width:50%;
+        width:65%;
             height:400px;
                 border:black solid 2px;
                     -webkit-box-shadow: 5px 5px 5px 5px #199128; 
@@ -612,7 +1149,7 @@ iframe {
             border-radius:2%;
 }
     .jeuxDuPuissance4JavaScript {
-        width:50%;
+        width:65%;
             height:400px;
                 border:black solid 2px;
                     -webkit-box-shadow: 5px 5px 5px 5px #199128; 
@@ -892,6 +1429,11 @@ iframe {
             font-size:250%;
                 color:white;
                     margin-bottom: 25%;
+}
+.iframeJavaScriptJeuxDuPuissance4{
+    width: 95%;
+    height: 1050px;
+    border-radius: 5%;
 }
     li {
         width:50%;
