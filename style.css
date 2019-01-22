@@ -377,6 +377,12 @@
     li {
         width:50%;
 }
+.iframeJavaScriptJeuxDuShiFuMi {
+    width: 95%;
+    height: 875px;
+    margin-left: 1.5%;
+    border-radius: 5%;
+}
 footer {
     text-align: center;
         position: fixed;
@@ -771,13 +777,13 @@ footer a {
 }
     .formulaireJavaScriptPartie3 {
         width:35%;
-            height:680px;
+            height:500px;
                 margin:2%;
                     border-radius:2%;
 }
     .formulaireJavaScriptPartie4 {
         width:35%;
-            height:680px;
+            height:500px;
                 margin:2%;
                     border-radius:2%;
 }
@@ -799,7 +805,7 @@ footer a {
 }
     .calculatriceJavaScriptPartie3 {
         width:45%;
-            height:650px;
+            height:500px;
                 border-radius:2%;           
 }
     .calculatriceJavaScriptPartie4 {
@@ -818,18 +824,6 @@ footer a {
         width:100%;
             text-align:center;
 }
-    .jeuxDuShiFuMiJavaScriptPartie3 {
-        width:35%;
-            height:680px;
-                margin:2%;
-                    border-radius:2%;
-}
-    .jeuxDuShiFuMiJavaScriptPartie4 {
-        width:35%;
-            height:680px;
-                margin:2%;
-                    border-radius:2%;
-}
     .jeuxDuShiFuMiJavaScriptPartie5 {
         text-align:center;
             font-size:250%;
@@ -845,18 +839,6 @@ footer a {
     .jeuxDuPuissance4JavaScriptPartie2 {
         width:100%;
             text-align: center;
-}
-    .jeuxDuPuissance4JavaScriptPartie3 {
-        width:28%;
-            height:680px;
-                margin:2%;
-                    border-radius:2%;
-}
-    .jeuxDuPuissance4JavaScriptPartie4 {
-        width:28%;
-            height:680px;
-                margin:2%;
-                    border-radius:2%;
 }
     .jeuxDuPuissance4JavaScriptPartie5 {
         text-align:center;
@@ -876,7 +858,7 @@ footer a {
 }
     .tableDeMultiplicationPhpPartie3 {
         width:35%;
-            height:650px; 
+            height:500px; 
                 border-radius:2%;
 }
     .tableDeMultiplicationPhpPartie4 {
@@ -897,7 +879,7 @@ footer a {
 }
     .formulairePhpPartie3 {
         width:35%;
-            height:650px;
+            height:500px;
                 border-radius:2%;
 }
     .formulairePhpPartie4 {
@@ -906,10 +888,15 @@ footer a {
                 color:white;
                     margin-bottom: 25%;
 }
-.iframeJavaScriptJeuxDuPuissance4 {
-    width: 95%;
-    height: 650px;
-    border-radius: 5%;
+    .iframeJavaScriptJeuxDuPuissance4 {
+        width: 95%;
+            height: 650px;
+                border-radius: 5%;
+}
+    .iframeJavaScriptJeuxDuShiFuMi {
+        width: 95%;
+            height: 875px;
+                border-radius: 5%;
 }
     li {
         width:50%;
@@ -1435,10 +1422,14 @@ footer a {
     height: 1050px;
     border-radius: 5%;
 }
+.iframeJavaScriptJeuxDuShiFuMi{
+    width: 65%;
+    height: 1050px;
+    border-radius: 5%;
+}
     li {
         width:50%;
 }
-
 }
 
 
