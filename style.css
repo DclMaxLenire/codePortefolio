@@ -369,6 +369,11 @@
             font-size:150%;
                 color:white;
 }
+iframe {
+    width: 95%;
+    height: 680px;
+    margin-left: 1.5%;
+}
     li {
         width:50%;
 }
